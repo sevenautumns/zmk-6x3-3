@@ -6,6 +6,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    concurrency:
+      group: keymap_image
+      cancel-in-progress: true
+
     permissions:
       contents: write
 
