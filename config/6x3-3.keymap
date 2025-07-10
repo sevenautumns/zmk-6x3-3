@@ -18,6 +18,7 @@
         caps_word {
             bindings = <&caps_word>;
             key-positions = <17 18>;
+            layers = <0>;
         };
     };
 
