@@ -13,9 +13,19 @@
 #
 ---
 board: [ "nice_nano_v2" ]
-shield: [ "corne_left", "corne_right", "tbkmini_left", "tbkmini_right" ]
+shield: [ "tbkmini_left", "tbkmini_right" ]
 cmake-args: [ "-DKEYMAP_FILE=../../config/6x3-3.keymap" ]
 include:
+  - board: nice_nano_v2
+    shield: corne_left
+    snippet: "choc-sunset"
+    artifact-name: corne_left-choc_sunset
+    cmake-args: [ "-DKEYMAP_FILE=../../config/6x3-3.keymap" ]
+  - board: nice_nano_v2
+    shield: corne_right
+    snippet: "choc-sunset"
+    artifact-name: corne_right-choc_sunset
+    cmake-args: [ "-DKEYMAP_FILE=../../config/6x3-3.keymap" ]
   - board: nice_nano_v2
     shield: tbkmini_left
     snippet: "gazzew-u4-silent-tactile"
