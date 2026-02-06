@@ -100,7 +100,7 @@
 &none  &kp Q            &kp W            &kp E               &kp R              &kp T           &kp Y       &kp U               &kp I               &kp O            &kp P                     &none
 &none  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LCTRL D        &hml LEFT_SHIFT F  &kp G           &kp H       &hmr RIGHT_SHIFT J  &hmr RCTRL K        &hmr LEFT_ALT L  &hmr RIGHT_GUI SEMICOLON  &kp SQT
 &none  &kp Z            &kp X            &kp C               &kp V              &kp B           &kp N       &kp M               &kp COMMA           &kp DOT          &kp FSLH                  &none
-                                         &hml RIGHT_ALT ESC  &thl 1 TAB         &thl 2 SPACE    &thr 3 RET  &thr 5 BSPC         &hmr RIGHT_ALT DEL
+                                         &hml RIGHT_ALT ESC  &thl 1 TAB         &thl 2 SPACE    &thr 5 RET  &thr 3 BSPC         &hmr RIGHT_ALT DEL
             >;
         };
 
@@ -124,10 +124,10 @@
 
         nav_layer {
             bindings = <
-&none  &kp EXCL  &kp AT       &kp HASH       &kp DOLLAR  &kp PERCENT    &none  &none            &none      &none         &none          &none
-&none  &kp LEFT  &kp UP       &kp DOWN       &kp RIGHT   &none          &none  &kp RIGHT_SHIFT  &kp RCTRL  &kp LEFT_ALT  &kp RIGHT_GUI  &none
-&none  &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN  &kp END     &none          &none  &none            &none      &none         &none          &none
-                              &none          &none       &mo 4          &none  &none            &none
+&none  &none     &none        &none          &none      &none    &none  &none            &none      &none         &none          &none
+&none  &kp LEFT  &kp UP       &kp DOWN       &kp RIGHT  &none    &none  &kp RIGHT_SHIFT  &kp RCTRL  &kp LEFT_ALT  &kp RIGHT_GUI  &none
+&none  &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN  &kp END    &none    &none  &none            &none      &none         &none          &none
+                              &none          &none      &none    &none  &none            &none
             >;
         };
 
@@ -142,10 +142,10 @@
 
         media_layer {
             bindings = <
-&none  &none         &none       &none     &none       &none           &none  &bt BT_CLR       &out OUT_BLE  &out OUT_USB  &none          &none
+&none  &kp EXCL      &kp AT      &kp HASH  &kp DOLLAR  &kp PERCENT     &none  &bt BT_CLR       &out OUT_BLE  &out OUT_USB  &none          &none
 &none  &kp C_VOL_DN  &kp C_PREV  &kp C_PP  &kp C_NEXT  &kp C_VOL_UP    &none  &kp RIGHT_SHIFT  &kp RCTRL     &kp LEFT_ALT  &kp RIGHT_GUI  &none
 &none  &none         &none       &none     &none       &none           &none  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &none          &none
-                                 &none     &none       &none           &none  &none            &none
+                                 &none     &none       &mo 4           &none  &none            &none
             >;
         };
     };
