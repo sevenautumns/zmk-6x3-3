@@ -28,6 +28,11 @@
             key-positions = <17 18>;
             layers = <0>;
         };
+
+        function_layer {
+            bindings = <&mo 3>;
+            key-positions = <37 40>;
+        };
     };
 
     behaviors {
@@ -97,10 +102,10 @@
             //                     | ESC  | SPC  | TAB  |    | RET  | BSPC | DEL |
 
             bindings = <
-&none  &kp Q            &kp W            &kp E         &kp R              &kp T           &kp Y       &kp U               &kp I              &kp O            &kp P                     &none
-&none  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LCTRL D  &hml LEFT_SHIFT F  &kp G           &kp H       &hmr RIGHT_SHIFT J  &hmr RCTRL K       &hmr LEFT_ALT L  &hmr RIGHT_GUI SEMICOLON  &kp SQT
-&none  &kp Z            &kp X            &kp C         &kp V              &kp B           &kp N       &kp M               &kp COMMA          &kp DOT          &kp FSLH                  &none
-                                         &thl 3 ESC    &thl 1 TAB         &thl 2 SPACE    &thr 5 RET  &thr 4 BSPC         &mt RIGHT_ALT DEL
+&none  &kp Q            &kp W            &kp E               &kp R              &kp T           &kp Y       &kp U               &kp I               &kp O            &kp P                     &none
+&none  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LCTRL D        &hml LEFT_SHIFT F  &kp G           &kp H       &hmr RIGHT_SHIFT J  &hmr RCTRL K        &hmr LEFT_ALT L  &hmr RIGHT_GUI SEMICOLON  &kp SQT
+&none  &kp Z            &kp X            &kp C               &kp V              &kp B           &kp N       &kp M               &kp COMMA           &kp DOT          &kp FSLH                  &none
+                                         &hml RIGHT_ALT ESC  &thl 1 TAB         &thl 2 SPACE    &thr 4 RET  &thr 5 BSPC         &hmr RIGHT_ALT DEL
             >;
         };
 
@@ -133,10 +138,10 @@
 
         nav_layer {
             bindings = <
-&none  &none     &kp HOME  &none     &kp PAGE_UP    &none    &none  &none            &none      &none         &none          &none
-&none  &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT      &none    &none  &kp RIGHT_SHIFT  &kp RCTRL  &kp LEFT_ALT  &kp RIGHT_GUI  &none
-&none  &none     &kp END   &none     &kp PAGE_DOWN  &none    &none  &none            &none      &none         &none          &none
-                           &none     &none          &none    &none  &none            &none
+&none  &kp EXCL  &kp AT    &kp HASH  &kp DOLLAR   &kp PERCENT      &none  &none            &none      &none         &none          &none
+&none  &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT    &none            &none  &kp RIGHT_SHIFT  &kp RCTRL  &kp LEFT_ALT  &kp RIGHT_GUI  &none
+&none  &none     &kp HOME  &kp END   &kp PAGE_UP  &kp PAGE_DOWN    &none  &none            &none      &none         &none          &none
+                           &none     &none        &none            &none  &none            &none
             >;
         };
 
