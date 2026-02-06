@@ -28,11 +28,6 @@
             key-positions = <17 18>;
             layers = <0>;
         };
-
-        function_layer {
-            bindings = <&mo 3>;
-            key-positions = <37 40>;
-        };
     };
 
     behaviors {
@@ -123,7 +118,7 @@
 &none  &none         &none         &none      &none           &none    &kp CARET       &kp AMPERSAND  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
 &none  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &none    &kp MINUS       &kp EQUAL      &kp LBKT        &kp RBKT              &kp BACKSLASH          &kp GRAVE
 &none  &none         &none         &none      &none           &none    &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp PIPE               &kp TILDE
-                                   &none      &none           &none    &none           &none          &none
+                                   &none      &none           &none    &mo 3           &none          &none
             >;
         };
 
@@ -141,7 +136,7 @@
 &none  &kp EXCL  &kp AT    &kp HASH  &kp DOLLAR   &kp PERCENT      &none  &none            &none      &none         &none          &none
 &none  &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT    &none            &none  &kp RIGHT_SHIFT  &kp RCTRL  &kp LEFT_ALT  &kp RIGHT_GUI  &none
 &none  &none     &kp HOME  &kp END   &kp PAGE_UP  &kp PAGE_DOWN    &none  &none            &none      &none         &none          &none
-                           &none     &none        &none            &none  &none            &none
+                           &none     &none        &mo 3            &none  &none            &none
             >;
         };
 
