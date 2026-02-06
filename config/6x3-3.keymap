@@ -11,7 +11,7 @@
 
 &mt {
     flavor = "balanced";
-    tapping-term-ms = <150>;
+    tapping-term-ms = <200>;
 };
 
 / {
@@ -72,10 +72,10 @@
 
         nav_layer {
             bindings = <
-&none  &none  &kp HOME  &kp UP    &kp PAGE_UP    &none    &none  &none            &none      &none         &none          &none
-&none  &none  &kp LEFT  &kp DOWN  &kp RIGHT      &none    &none  &kp RIGHT_SHIFT  &kp RCTRL  &kp LEFT_ALT  &kp RIGHT_GUI  &none
-&none  &none  &kp END   &none     &kp PAGE_DOWN  &none    &none  &none            &none      &none         &none          &none
-                        &none     &none          &none    &none  &none            &none
+&none  &none  &kp HOME  &kp UP  &kp PAGE_UP    &none        &none  &none            &none      &none         &none          &none
+&none  &none  &kp LEFT  &kp UP  &kp DOWN       &kp RIGHT    &none  &kp RIGHT_SHIFT  &kp RCTRL  &kp LEFT_ALT  &kp RIGHT_GUI  &none
+&none  &none  &kp END   &none   &kp PAGE_DOWN  &none        &none  &none            &none      &none         &none          &none
+                        &none   &none          &none        &none  &none            &none
             >;
         };
 
